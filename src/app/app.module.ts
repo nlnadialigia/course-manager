@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CourseListComponent } from './courses/course-list.component';
+import { ReplacePipe } from './pipe/replace.pipe';
 import { StarComponent } from './star/star.component';
 
 
@@ -10,7 +11,8 @@ import { StarComponent } from './star/star.component';
   declarations: [
     AppComponent,
     CourseListComponent,
-    StarComponent
+    StarComponent,
+    ReplacePipe
   ],
   imports: [
     BrowserModule,
