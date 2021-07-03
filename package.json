@@ -1,6 +1,11 @@
 {
   "name": "course-manager",
   "version": "0.0.0",
+  "author": {
+    "email": "nlnadialigia@gmail.com",
+    "name": "Nadia Ligia",
+    "url": "https://github.com/nlnadialigia/course-manager"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
