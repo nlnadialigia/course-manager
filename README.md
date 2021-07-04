@@ -12,38 +12,77 @@
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/nlnadialigia/course-manager?color=064c16&style=plastic">
 
   <a href="./LICENSE.md">
-  <img alt="GitHub" src="https://img.shields.io/github/license/nlnadialigia/letmeask?color=835afd&style=plastic">
+    <img alt="GitHub" src="https://img.shields.io/github/license/nlnadialigia/course-manager?color=064c16&style=plastic">
   </a>
 </p>
 
+<br>
 
-# CourseManager
+<p align="center">
+  <img src=".github/example.gif" width=400 alt="Course Manager" />
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+# Índice
+[Sobre](#ℹ️-sobre)<br>
+[Como rodar o projeto](#⚙️-como-rodar-o-projeto)<br>
+[Tecnologias](#🛠-tecnologias)<br>
+[Autora](#👩‍💼-autora)
 
-## Development server
+<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# ℹ️ Sobre
 
-## Code scaffolding
+Projeto desenvolvido no estudo dos conceitos básicos do framework Angular 8 no BootCamp FullStack Santander.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para o ensinamento dos conhecimentos básicos foi desenvolvida uma aplicação de gerenciamento de cursos, contendo a página principal e uma página com as informações de cada curso.
 
-## Build
+O back-end da aplicação foi disponibilizado na pasta `server`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<br>
 
-## Running unit tests
+# ⚙️ Como rodar o projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+# Clone o repositório
+$ git clone https://github.com/nlnadialigia/course-manager.git
+```
 
-## Running end-to-end tests
+### 📌 Back end
+```bash
+# Entre na pasta server
+$ cd server
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Instale as dependências
+$ yarn
 
-## Further help
+# Execute a aplicação
+$ yarn start
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 📌 Front end
+```bash
+# Entre no repositório
+$ cd course-manager
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação
+$ yarn start
+```
+### 📌 Acessar a aplicação
+- com o back end rodando, acesse o browser no endereço `http://localhost:4200/`
+
+<br>
+
+# 🛠 Tecnologias
+
+- [Angular](https://angular.io/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Nodejs](https://nodejs.org/)
+
+<br>
 
 # 👩‍💼 Autora
 <img src=".github/picture.png" width="100px;" alt="Picture"/>
